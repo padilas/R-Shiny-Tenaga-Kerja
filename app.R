@@ -6,8 +6,8 @@ library(readr)
 library(tidyr)
 
 # Load data from different sheets
-SektorP <- read.csv("D:/Collage/2nd Term/MVD/R SHINY - PROJECT 1/Sektor Pekerjaan.csv")
-Status_P <- read_csv("D:/Collage/2nd Term/MVD/R SHINY - PROJECT 1/Status P.csv")
+SektorP <- read.csv("https://raw.githubusercontent.com/padilas/R-Shiny-Tenaga-Kerja/main/Sektor%20Pekerjaan.csv")
+Status_P <- read_csv("https://raw.githubusercontent.com/padilas/R-Shiny-Tenaga-Kerja/main/Status%20P.csv")
 
 # Check the structure of Sektor to ensure columns are correctly read
 str(SektorP)
@@ -47,11 +47,11 @@ ui <- dashboardPage(
                 valueBoxOutput("jumlahTotal", width = 4)
               ),
               fluidRow(
-                box(title = "filter", status = "primary", solidHeader = FALSE, width = 12, collapsible = TRUE,
+                box(title = "Filter", status = "primary", solidHeader = FALSE, width = 12, collapsible = TRUE,
                     fluidRow(
                       column(4, radioButtons("Tahun_Sektor", "Pilih Tahun", choices = c("Total", "2020", "2021"), selected = "Total")
                       ),
-                      column(4, selectInput("Sektor_Pekerjaan", "Pilih Sektor Pekerjaan",
+                      column(8, selectInput("Sektor_Pekerjaan", "Pilih Sektor Pekerjaan",
                                             choices = unique(SektorP$Lapangan.Pekerjaan.Utama),
                                             selected = unique(SektorP$Lapangan.Pekerjaan.Utama)[1])
                       )
