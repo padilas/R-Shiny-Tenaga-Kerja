@@ -6,7 +6,7 @@ App.R is the file for the dashboard application created with R-Shiny, while Sekt
 ---
 # Dynamic Dashboard: Labour Data Visualization (2020-2021)
 
-Welcome to our project! This repository provides a **dynamic dashboard** built using **R-Shiny**, designed to visualize Labour data sourced from **BPS Indonesia** for 2020-2021. The dashboard aims to provide clear and interactive insights into key aspects of Indonesia's labor force. 
+This repository provides a **dynamic dashboard** built using **R-Shiny**, designed to visualize Labour data sourced from **BPS Indonesia** for 2020-2021. The dashboard aims to provide clear and interactive insights into key aspects of Indonesia's labor force. 
 
 ## Dashboard Overview
 
