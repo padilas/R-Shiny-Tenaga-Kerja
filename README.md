@@ -4,9 +4,9 @@ Final Project for Data Visualization Methods
 App.R is the file for the dashboard application created with R-Shiny, while Sektor Pekerjaan.csv and Status P.csv are the datasets used to build the dashboard. This app/dashboard is created based on the assignment instructions.
 
 ---
-# Dynamic Dashboard: Workforce Data Visualization (2020-2021)
+# Dynamic Dashboard: Labour Data Visualization (2020-2021)
 
-Welcome to our project! This repository provides a **dynamic dashboard** built using **R-Shiny**, designed to visualize Labour data sourced from **BPS Indonesia** for 2020-2021. The dashboard aims to provide clear and interactive insights into key aspects of Indonesia's labour force. 
+Welcome to our project! This repository provides a **dynamic dashboard** built using **R-Shiny**, designed to visualize Labour data sourced from **BPS Indonesia** for 2020-2021. The dashboard aims to provide clear and interactive insights into key aspects of Indonesia's labor force. 
 
 ## Dashboard Overview
 
@@ -15,7 +15,7 @@ The dashboard is organized into two primary sections:
    Visualizes workforce distribution across Indonesia's 17 employment sectors, enabling users to explore trends and patterns.  
 
 2. **Primary Employment Status**  
-   Highlights the breakdown of labour status, such as labourers/employees, self-employed, and other classifications, offering a comprehensive view of types of employment.
+   Highlights the breakdown of labor status, such as laborers/employees, self-employed, and other classifications, offering a comprehensive view of types of employment.
 
 ## Features and Functionality
 
@@ -33,7 +33,7 @@ The server processes data and generates visuals using the **ggplot2** package, e
 ### Creativity and Additional Elements
 To elevate usability and aesthetics, we have integrated additional features, including:
 - **Responsive Layout**: Ensures compatibility across devices and screen sizes.
-- **Inbox**: In this dashboard, this feature is used to store the names of the group and its members.
+- **Inbox**: In this dashboard, this feature stores the group's names and its members.
 - **Notifications**
 
 ## Learning Objectives
