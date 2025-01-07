@@ -44,5 +44,5 @@ This project was designed to fulfill academic requirements while allowing us to 
 
 ---
 Contributors:
-Asyifa N. Fadhilah
-Ayatundira Setyoningrum
+1. Asyifa N. Fadhilah
+2. Ayatundira Setyoningrum
