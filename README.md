@@ -37,7 +37,12 @@ To elevate usability and aesthetics, we have integrated additional features, inc
 - **Notifications**
 
 ## Learning Objectives
-This project was designed to fulfil academic requirements while allowing us to develop skills in:
+This project was designed to fulfill academic requirements while allowing us to develop skills in:
 - **Data visualization** using R and ggplot2.
 - Building **dynamic and responsive dashboards** with R-Shiny.
 - Applying creativity in UI design to improve user engagement.
+
+---
+Contributors:
+Asyifa N. Fadhilah
+Ayatundira Setyoningrum
